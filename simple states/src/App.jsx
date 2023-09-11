@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState } from "react";
-import Counter from "./assets/Counter";
-import Todo from "./assets/Todo";
+import Counter from "./Counter";
+import Todo from "./Todo";
 
 function App() {
   const [selectedApp, setSelectedApp] = useState(null);
